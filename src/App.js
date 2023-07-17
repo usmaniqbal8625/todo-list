@@ -1,19 +1,5 @@
 import './App.css';
-// import {BrowserRouter, Route, Routes} from "react-router-dom"
 import { useState } from 'react';
-// import Navbar from './components/Navbar';
-
-// import Tables from './components/Tables';
-// import Navbar from './components/Navbar';
-// import { Home } from './context/Home';
-// import About from './context/About';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link
-// } from "react-router-dom";
-// import NoteState from './context/noteState';
 
 
 
@@ -38,18 +24,6 @@ setItems("");
   };
 
    return( 
-//     <NoteState>
-//    <BrowserRouter>
-   
-//   <Routes>
-// <Route path="/" element={<Home/>} />
-// {/* <Route path="/tables" element={<Home/>} /> */}
-
-// <Route path="/about" element={<About/>} />
-
-
-
-  // </Routes>
   <div className= "container">
    <div className="center_div">
      <h1>Todo_List</h1>
@@ -65,22 +39,6 @@ setItems("");
   </div>
     </div> 
      
-    // </BrowserRouter>
-    // </NoteState>
-// 
-/* <NoteState>  
-<Router>
-<Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch></Router>
-
-</NoteState> */
     
 
 )
